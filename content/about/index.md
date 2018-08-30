@@ -19,7 +19,7 @@ Me apasionan GNU/Linux y el software libre en general.
 
 #### Fundador y Consultor de gestión documental (Nosturi) - Mayo 2016-Actualidad
 
-Nosturi ofrece servicios de gestión documental y archivo basados en soluciones de software libre. Como autónomo, no solo me encargo de los aspectos técnicos, sino también de la gestión de proyectos, las redes sociales y la creación de contenidos.
+Nosturi ofrece servicios de gestión documental y archivo basados en soluciones de software libre. Como autónomo, no solo me encargo de los aspectos técnicos, sino también de las ventas, la gestión de proyectos, las redes sociales y la creación de contenidos.
 
 Estos son algunos de los proyectos en los que he trabajado:
 
