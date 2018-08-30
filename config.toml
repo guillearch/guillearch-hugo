@@ -1,0 +1,23 @@
+baseUrl = "https://example.com/"
+languageCode = "en-es"
+title = "Guillermo Castellano"
+theme = "hello-friend"
+copyright = ""
+paginate = 5
+
+[params]
+#  subtitle = "Your site subtitle"
+
+[params.logo]
+#  path = ""
+  alt = "Guillermo Castellano"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact"
