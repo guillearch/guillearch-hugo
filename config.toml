@@ -1,5 +1,5 @@
 baseUrl = "https://guillearch.me/"
-languageCode = "en-es"
+languageCode = "es-es"
 title = "Guillermo Castellano"
 theme = "hello-friend"
 copyright = ""
@@ -9,15 +9,19 @@ paginate = 5
 #  subtitle = "Your site subtitle"
 
 [params.logo]
-#  path = ""
+  path = ""
   alt = "Guillermo Castellano"
 
 [menu]
   [[menu.main]]
     identifier = "about"
-    name = "About"
+    name = "Acerca de mí"
     url = "/about"
   [[menu.main]]
     identifier = "contact"
-    name = "Contact"
+    name = "Contacto"
     url = "/contact"
+  [[menu.main]]
+    identifier = "rss"
+    name = "RSS"
+    url = "/post/index.xml"
