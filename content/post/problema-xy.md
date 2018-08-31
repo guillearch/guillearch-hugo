@@ -30,9 +30,9 @@ El rol del consultor consiste en poner el problema real encima de la mesa y busc
 1. Cultiva el **escepticismo** y el pensamiento crítico. *Tratado contra el método*, de Paul Feyerabend, puede ser un buen punto de partida.
 2. Sé **asertivo**. El cliente puede saber mucho de su especialidad, pero no de la tuya: recuerda que por eso te ha contratado.
 3. Conduce la discusión hacia los **síntomas** del problema, no hacia lo que el cliente interpreta como su causa.
-4. A veces, un cliente no es receptivo a la solución de X porque la solución de Y parece más **económica**. Plantéale que, si la solución de Y no resuelve su problema X, entonces no es una solución y, lógicamente, no puede ser una solución más económica.
+4. A veces, un cliente no es receptivo a la solución de X porque la solución Y parece más **económica**. Plantéale que, si Y no resuelve su problema X, entonces no es una solución y, lógicamente, no puede ser una solución más económica.
 5. No seas demasiado **literal**. Muchos consultores piensan que se curan en salud ciñéndose a lo que les plantea el cliente (Y), pero el cliente espera una solución a su problema real (X) y se molestará si la solución desarrollada no le sirve. Especialmente si ha invertido bastante tiempo y dinero.
-6. Trabaja SIEMPRE con un **contrato**. Algunos casos de Problema XY son muy difíciles de evitar. También hay clientes que cambian de opinión. En esos casos, agradecerás tener un contrato que te proteja ante un cliente enfadado porque se ha resuelto Y en vez de X.
+6. Trabaja SIEMPRE con un **contrato**. Algunos casos de Problema XY son muy difíciles de evitar. También hay clientes que cambian de opinión. En esos casos, agradecerás tener un contrato que te proteja ante un cliente enfadado porque no se ha resuelto X.
 7. Aprende a detectar **clientes problemáticos** y evítalos si puedes. Un cliente poco razonable durante la fase de toma de requisitos será aun menos razonable cuando no le entregues la solución que imaginaba (pero que nunca te dijo).
 
 La mayoría de problemas admite varias soluciones y, la que puede ser más adecuada en un contexto, quizá no lo sea en el contexto del cliente. Escojamos la solución que escojamos, lo importante es asegurarnos de que responde a su verdadero problema. No a un problema imaginario.
