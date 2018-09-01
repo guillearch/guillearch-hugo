@@ -9,9 +9,9 @@ rssLimit = 20
 [params]
 #  subtitle = "Your site subtitle"
 
-[params.logo]
-  path = ""
-  alt = "Guillermo Castellano"
+#[params.logo]
+#  path = ""
+#  alt = "Guillermo Castellano"
 
 [menu]
   [[menu.main]]
