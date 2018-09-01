@@ -26,3 +26,6 @@ rssLimit = 20
     identifier = "rss"
     name = "RSS"
     url = "/post/index.xml"
+
+[permalinks]
+    post = "/:year/:month/:title/"
