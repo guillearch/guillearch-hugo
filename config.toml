@@ -2,7 +2,7 @@ baseUrl = "https://guillearch.me/"
 languageCode = "es-es"
 title = "Guillermo Castellano"
 theme = "hello-friend"
-copyright = "CC BY-SA 4.0"
+copyright = ""
 paginate = 5
 rssLimit = 20
 
