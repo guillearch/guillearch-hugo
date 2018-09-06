@@ -27,5 +27,9 @@ rssLimit = 20
     name = "RSS"
     url = "/post/index.xml"
 
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+
 [permalinks]
-    post = "/:year/:month/:title/"
+    post = "/:title/"
