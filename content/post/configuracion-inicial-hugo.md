@@ -11,13 +11,13 @@ En esta entrada te cuento los ficheros que yo he modificado tras instalar Hugo y
 
 * Hemos instalado Hugo.
 * Hemos instalado el tema de nuestra elección.
-* Estamos familiarizados con los comandos básicos de Hugo: `hugo server`, `hugo new post/tupost.md`, etc.
+* Estamos familiarizados con los comandos básicos de Hugo: `hugo server`, `hugo new post/tu-post.md`, etc.
 
 ## Objetivo
 
 * Modificar el permalink de los posts.
 * Añadir el enlace al feed de RSS.
-* Configurar la forma en que mi sitio aparece en los lectores de RSS.
+* Configurar la forma en que el sitio aparece en los lectores de RSS.
 * Cambiar el idioma de algunos elementos del tema.
 * Añadir un favicon al sitio.
 
@@ -25,7 +25,7 @@ En esta entrada te cuento los ficheros que yo he modificado tras instalar Hugo y
 
 Por defecto, los posts de un nuevo sitio hecho con Hugo se publican con el permalink `tu-sitio/post/tu-post`.
 
-Yo quería cambiar la URL al formato estandarizado `tu-sitio/tu-post`, que aparentemente es el que mejor funciona para [SEO](https://yoast.com/wordpress-seo-url-permalink/).
+Yo quería cambiar la URL al formato `tu-sitio/tu-post`, que aparentemente es el que mejor funciona para [SEO](https://yoast.com/wordpress-seo-url-permalink/).
 
 Para ello, lo único que tuve que hacer fue añadir las dos siguientes líneas a mi archivo **config.toml**:
 
@@ -34,7 +34,7 @@ Para ello, lo único que tuve que hacer fue añadir las dos siguientes líneas a
     post = "/:title/"
 ```
 
-Para asegurarte de que se ha cambiado directamente, puedes crear un nuevo post de prueba y ver la URL que devuelve ese post en el navegador.
+Para asegurarte de que se ha cambiado correctamente, puedes crear un nuevo post de prueba y ver la URL que devuelve ese post en el navegador.
 
 Sobra decir que puedes indicar otras estructuras, como la clásica `tu-sitio/año/mes/día/tu-post`.
 
@@ -99,7 +99,7 @@ Hugo sigue la [especificación RSS 2.0](https://cyber.harvard.edu/rss/rss.html).
 
 ## Traducir algunos elementos del tema
 
-Salvo que tengas un sitio multilingüe, es posible que te interese cambiar el idioma en el que vienen por defecto algunos elementos de tu tema como "Written by" o "Read more" y los nombres de las secciones.
+Salvo que tengas un sitio multilingüe, es posible que te interese cambiar el idioma en el que vienen por defecto algunos elementos de tu tema, como "Written by" o "Read more" y los nombres de las secciones.
 
 Lo primero lo hice modificando los ficheros HTML del directorio `hemes/mi-tema-layouts/_defaults`.
 
@@ -119,12 +119,14 @@ Los nombres de la sección se pueden modificar cambiando el valor del atributo `
 
 ## Añadir un favicon
 
-Para añadir un favicon a tu sitio (la imagen que aparece junto al nombre de tu página en el navegador), solo tienes que pegar crear el archivo `static/favicon.ico` y añadir esta línea en el archivo **head.html** (en caso de que no exista ya):
+Para añadir un favicon a tu sitio (la imagen que aparece junto al nombre de tu página en el navegador), solo tienes que crear el archivo `static/favicon.ico` y añadir esta línea en el archivo **head.html** (en caso de que no exista ya):
 
 ```
 <link rel="shortcut icon" href="/favicon.ico?">
 ```
 
 Todo el contenido alojado en el directorio `static/` se sirve en la raíz de tu sitio. Así, el archivo `img/favicon.ico` aparecerá en la URL `tu-sitio/favicon.ico`. Es por ello que en la línea anterior indicamos el enlace `/favicon.ico` en lugar de `img/favicon.ico`.
+
+Eso es todo.
 
 ¡Espero que te resulte útil!
